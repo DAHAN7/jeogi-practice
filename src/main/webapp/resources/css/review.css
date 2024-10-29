@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: separate;
+}
+img{
+width:500px;
+height:500px;
+}
+body{
+    width:100%;
+    height:150vh;
+}
+/* header 영역 */
+/* header 영역 */
+/* header 영역 */
+
+
+header{
+    width:65%;
+    height:75px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-wrap{
+    width:100%;
+    height:75px;
+    border-bottom:1px solid rgba(206, 206, 209, 0.3);
+
+}
+.logo-img-area{
+    height:28px;
+    width:105px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+header .right-header{
+    display: flex;
+    align-items: center;
+}
+header .right-header button{
+    background-color: white;
+    border:1px solid rgba(201, 201, 211, 0.3);
+
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.ham-img-area{
+    height:22px;
+    width:16px;
+    background-image: url("./bars-solid.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.right-header button{
+    margin-right:20px;
+}
+
+
+/* main영역 */
+/* main영역 */
+/* main영역 */
+
+main{
+    width:65%;
+    height:87%;
+    margin:0 auto;
+}
+
+main .main-header{
+    width:100%;
+    height:400px;
+    margin-top: 30px;
+
+}
+.img-area-box{
+    width:100%;
+    height:100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+.section-first{
+    width:50%;
+    height:100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.section-first img{
+    width:100%;
+    height:100%;
+    object-fit: cover;    /* 이미지를 비율에 맞게 조정 */
+
+}
+.section-second{
+    width:50%;
+    height:100%;
+
+}
+.section-second .top,
+.section-second .bottom{
+    width:100%;
+    height:50%;
+    display: flex;
+    gap:10px;
+}
+.section-second .top .com
+.section-second .bottom .com
+{
+    width:100%;
+    height:100%;
+    border:1px solid white;
+    border-radius:12px;
+
+}
+
+
+
+main .main-content{
+    margin-top: 20px;
+}
+
+.review-box-area{
+    display: flex;
+    justify-content: center;
+    gap:13px;
+}
+.review-box-area .box{
+    width:32%;
+    height:110px;
+    border: 1px solid white;
+    background-color: rgba(249, 249, 250, 0.808);
+    border-radius: 12px;
+
+}
+.review-box-area .box p{
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(38, 75, 75);
+    padding: 20px;
+}
+.main-content p:nth-child(1){
+    font-size: small;
+    font-weight: 700;
+    color: rgb(131, 102, 102);
+}
+.main-content p:nth-child(2){
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(34, 22, 22);
+    margin-top: 3px;
+}
+.main-content p:nth-child(3){
+    margin:10px;
+    font-size: small;
+    color: rgb(99, 99, 177);
+    font-weight: 900;
+}
+.main-content-wrap{
+    border-bottom:1px solid rgba(206, 206, 209, 0.3);
+    padding-bottom: 20px;
+}
+
+
+.room-box{
+    display: flex;
+    width:95%;
+    height:500px;
+    border: 1px solid white;
+    background-color: rgb(253, 234, 234);
+    border-radius: 20px;
+    min-width:800px;
+
+}
+.room-box .left-img-area{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:35%;
+    height:50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid rgb(253, 234, 234);
+    border-radius: 12px;
+}
+
+.room-box .content-box{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.content-box .sub-box-first{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 22px;
+}
+
+.room-box .line{
+    border-bottom: 1px solid rgba(209, 190, 190,0.3);
+    width: 95%;
+    margin: 0 auto;
+}
+.sub-box-first p:nth-child(1){
+    font-size:13px;
+    font-weight: 700;
+    padding:10px;
+    color: black;
+}
+.sub-box-first p:nth-child(2),
+.sub-box-first p:nth-child(3){
+    font-size:11px;
+    font-weight: 700;
+    margin-left: 23px;
+}
+.sub-box-first button{
+    margin-left:200px;
+    width:70px;
+    height:30px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding:5px;
+    color: white;
+    background-color: blue;
+    font-size: 10px;
+
+    font-weight: 900;
+    margin-left:380px;
+    margin-bottom: 10px;
+}
+
+.sub-box-second p{
+    font-size:11px;
+    font-weight: 700;
+}
+.sub-box-second p:nth-child(1){
+    font-size:13px;
+    font-weight: 700;
+    padding:10px;
+    color: black;
+}
+.sub-box-second p:nth-child(2),
+.sub-box-second p:nth-child(3){
+    font-size:11px;
+    font-weight: 700;
+    margin-left: 23px;
+}
+.content-box p:nth-child(1){
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+.content-box p:nth-child(2){
+    font-size: 12px;
+    color: blueviolet;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.room-wrap{
+    display: flex;
+
+    flex-direction: column;
+}
+
+.footer-review-area{
+    width:100%;
+    height:400px;
+
+}
+
+.review-area-header{
+    width:100%;
+    height:10%;
+    display: flex;
+}
+
+.riview-area-main{
+    display: flex;
+    width:100%;
+    height:90%;
+}
+.riview-area-main p{
+    width:30%;
+    height:100%;
+}
+.riview-area-main .img-area-main{
+    width:70%;
+    height:100%;
+}
+.img-area-main{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+
+}
+.img-area-main .img-area{
+    display: flex;
+    gap: 10px;
+    width:300px;
+    height:300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review-area{
+    width:100%;
+    height:400px;
+    display: flex;
+    border-bottom: 1px solid rgba(200, 159, 159,0.3);
+    overflow-y: auto;
+
+
+}
+.review-area p:nth-child(1){
+    width: 20%;;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+.right-review-area{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    margin-top: 10px;
+
+}
+.right-review-area .review-images{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+
+}
+
+.right-review-area .review-images img{
+    width:23%;
+    height:210px;
+    border: 1px solid white;
+    border-radius: 16px;
+}

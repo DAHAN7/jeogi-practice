@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: separate;
+}
+a{
+    text-decoration:none;
+}
+
+body{
+    width:100%;
+    height:150vh;
+}
+/* header 영역 */
+/* header 영역 */
+/* header 영역 */
+header{
+    width:65%;
+    height:75px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-img-area{
+    height:28px;
+    width:105px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+header .right-header{
+    display: flex;
+    align-items: center;
+}
+header .right-header button{
+    background-color: white;
+    border:1px solid rgba(201, 201, 211, 0.3);
+
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.ham-img-area{
+    height:22px;
+    width:16px;
+    background-image: url("./bars-solid.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.right-header button{
+    margin-right:20px;
+}
+
+
+/* main영역 */
+/* main영역 */
+/* main영역 */
+
+main{
+    width:100%;
+    height:87%;
+    margin:0 auto;
+}
+
+main .main-header{
+    width:100%;
+    height:29%;
+    background-image: url("https://static.yeogi.com/_next/static/media/04_Kv_PC_Light.83765441.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    min-height:450px;
+
+}
+
+main .main-header .title p{
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+}
+
+.main-header .title{
+    width:65%;
+    margin: 0 auto;
+    height:80px;
+    position: absolute;
+    top:100px;
+
+
+
+}
+main .main-content{
+    width:65%;
+    height:65%;
+    margin: 0 auto;
+}
+
+main .section-box{
+    width:65%;
+    height:30%;
+    border:1px solid white;
+    border-radius:18px;
+    background-color: white;
+    position: relative;
+    top: 200px;
+    min-height: 160px;
+
+}
+main .section-box p{
+    border-bottom: 1px solid rgba(204, 204, 216, 0.3); /* 반투명 파란색 */
+    font-size: 12x;
+    font-weight: 600;
+
+    color:rgb(94, 126, 126);
+    height:30%;
+    line-height:50px;
+    padding-left: 20px;
+    margin-top: 5px;
+
+
+}
+.section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    height:60%;
+
+}
+.resv-a:link {
+    color: white;
+}
+.resv-a:visited {
+    color: white;
+}
+.resv-a:hover {
+    color: white;
+}
+.resv-a:active {
+    color: white;
+}
+
+#search-text-area{
+    width:350px;
+    height:48px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #F5F5F5;
+}
+
+#search-submit{
+    width:120px;
+    height:48px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: rgb(108, 99, 235);
+    color:white;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+/* com-area */
+/* com-area */
+
+.list-name{
+    display: flex;
+    align-items: center;
+    width:30;
+    height:70px;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.main-content-header{
+    display: flex;
+    justify-content: space-between;
+    padding:0 30px;
+}
+
+.reserve-list-area .com{
+    display: flex;
+    flex-direction: column;
+    width:24%;
+    height:280px;
+    gap:3px;
+    min-width: 185px;
+}
+.com-img-area{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:54%;
+    width:100%;
+    border-radius: 12px;
+
+}
+.reserve-list-area .com p:nth-child(2){
+    font-size: 11px;
+    font-weight: 100;
+
+    color: #5f5454;
+}
+
+.reserve-list-area .com p:nth-child(3){
+    font-size: 15px;
+    font-weight: 900;
+}
+.reserve-list-area .com p:nth-child(4){
+    font-size:12px;
+    color: #5f5454;
+}
+.reserve-list-area .com p:nth-child(5){
+    font-size:16px;
+    color: #1a1515;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.reserve-list-area{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+}
+
+/* 페이징  */
+.com-area-paging{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    margin-top: 5%;
+
+}
+.com-area-paging button{
+    padding:10px;
+    background-color: rgb(215, 215, 228);
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: 600;
+}

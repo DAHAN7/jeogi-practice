@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* CSS Libraries Used 
+
+*Animate.css by Daniel Eden.
+*FontAwesome 4.7.0
+*Typicons
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+body, html {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #24294b; /* 배경색 */
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(38, 47, 70); 
+  border-radius: 9px;
+  border-top: 10px solid #83b1ff;
+  border-bottom: 10px solid #98db85;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 1px 1px 108.8px 19.2px rgb(30, 38, 58);
+}
+
+h1 {
+  color: #e3e3ee; /* 제목 색상 */
+}
+
+form {
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  color: #e3e3ee; /* 텍스트 색상 */
+  padding: 10px;
+  text-align: left;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #2b3555;
+  color: #e0e0e0;
+  border: 1px solid #83b1ff;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8c68f6;
+  color: #e3e3ee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6640ef;
+}
+
+label {
+  color: #e3e3ee;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.error {
+  background: #ff4d4d;
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+  display: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.footer {
+  color: #86868a;
+  font-size: 14px;
+  text-align: center;
+}
